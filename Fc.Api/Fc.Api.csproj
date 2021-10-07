@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fc.Data\Fc.Data.csproj" />
+    <ProjectReference Include="..\Fc.DomainServices\Fc.DomainServices.csproj" />
+    <ProjectReference Include="..\Fc.Entities\Fc.Entities.csproj" />
+    <ProjectReference Include="..\Fc.Infraestructure\Fc.Infraestructure.csproj" />
+    <ProjectReference Include="..\Fc.Repository\Fc.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
